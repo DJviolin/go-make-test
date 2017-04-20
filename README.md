@@ -1,0 +1,1 @@
+# Make testfile for Go
