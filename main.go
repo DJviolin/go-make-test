@@ -12,5 +12,6 @@ var (
 
 func main() {
 	fmt.Println("Version: ", Version)
-	fmt.Println("Build Time: ", Build)
+	//fmt.Println("Build Time: ", Build)
+	fmt.Println("Git commit hash: ", Build)
 }
