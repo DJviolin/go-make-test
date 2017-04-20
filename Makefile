@@ -1,4 +1,5 @@
 # https://www.slideshare.net/RaPz1/build-golang-projects-properly-with-makefiles
+# https://github.com/repejota/gomake
 
 # This is how we want to name the binary output
 BINARY=gomake
