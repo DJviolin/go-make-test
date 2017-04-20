@@ -22,13 +22,13 @@ LDFLAGS=-ldflags "-X main.Version=${VERSION} -X main.Build=${BUILD}"
 # Builds the project
 ${BINARY}:
 	#go build ${LDFLAGS} -o ${BINARY} ./..
-	go build ${LDFLAGS} -o ${BINARY} ..
+	go build ${LDFLAGS} -o ${BINARY} .
 
 # Installs our project: copies binaries
 install:
 	#go install ${LDFLAGS}
 	#go install ${LDFLAGS} -o ${BINARY} ./..
-	go install ${LDFLAGS} -o ${BINARY} ..
+	go install ${LDFLAGS} -o ${BINARY} .
 
 # Cleans our project: Deletes binaries
 clean:
